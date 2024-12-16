@@ -1035,3 +1035,33 @@ cpus += [
     {"model": "Intel Core i7-12700F", "cores": 12, "clock_speed": 3.4},
     {"model": "AMD Ryzen 7 5700G", "cores": 8, "clock_speed": 3.8}
 ]
+
+#I wanted to do some honorable mentions:
+cpus += [
+    {"model": "AMD A8-6410", "cores": 4, "clock_speed": 2.0},
+    {"model": "AMD A10-7800", "cores": 4, "clock_speed": 3.5},
+    {"model": "AMD A8-7600", "cores": 4, "clock_speed": 3.1},
+    {"model": "AMD A6-6400K", "cores": 2, "clock_speed": 3.9},
+    {"model": "Intel Pentium 4 3.0 GHz", "cores": 1, "clock_speed": 3.0},
+    {"model": "Intel Celeron G1840", "cores": 2, "clock_speed": 2.8},
+    {"model": "Intel Core 2 Quad Q6600", "cores": 4, "clock_speed": 2.4},
+    {"model": "Intel Core i7-9700K", "cores": 8, "clock_speed": 3.6},
+    {"model": "Intel Core i9-9900K", "cores": 8, "clock_speed": 3.6},
+    {"model": "Intel Xeon E5-2670", "cores": 8, "clock_speed": 2.6},
+    {"model": "AMD FX-8350", "cores": 8, "clock_speed": 4.0},
+    {"model": "AMD Ryzen 3 1200", "cores": 4, "clock_speed": 3.1},
+    {"model": "Intel Core i5-2400", "cores": 4, "clock_speed": 3.1},
+    {"model": "AMD Athlon 64 X2 4200+", "cores": 2, "clock_speed": 2.2},
+    {"model": "Intel Core i5-3570K", "cores": 4, "clock_speed": 3.4},
+    {"model": "Intel Core i9-12900K", "cores": 16, "clock_speed": 3.2},
+    {"model": "Intel 8080", "cores": 1, "clock_speed": 0.002},  # Corrected to 2 MHz (0.002 GHz)
+    {"model": "Intel 8086", "cores": 1, "clock_speed": 0.005},  # Corrected to 5 MHz (0.005 GHz)
+    {"model": "Intel Pentium III 1.13 GHz", "cores": 1, "clock_speed": 1.13},
+    {"model": "Intel Pentium D 3.0 GHz", "cores": 2, "clock_speed": 3.0},
+    {"model": "Intel Pentium 4 Prescott 3.4 GHz", "cores": 1, "clock_speed": 3.4},
+    {"model": "Intel Itanium 2", "cores": 1, "clock_speed": 1.6},
+    {"model": "AMD K6-2 500 MHz", "cores": 1, "clock_speed": 0.5},
+    {"model": "AMD FX-6100", "cores": 6, "clock_speed": 3.3},
+    {"model": "Intel 386", "cores": 1, "clock_speed": 0.012},  # Corrected to 12 MHz (0.012 GHz)
+    {"model": "Intel Core i9-9900K (Thermal Throttling Issues)", "cores": 8, "clock_speed": 3.6}
+]
