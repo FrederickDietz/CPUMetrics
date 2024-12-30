@@ -54,7 +54,7 @@ print(len(cpus))
 ```
 
 Note:
-While it isn't possible yet I'd like to get it to a point where it also has the data for what sockets they can fit into, their temperature ranges, power usage, how many were produce etc, but right now that simply isn't possible.
+While it isn't possible yet I'd like to get it to a point where it also has the data for what sockets they can fit into, their temperature ranges, power usage, how many were produced etc, but right now that simply isn't possible.
 
 
 
